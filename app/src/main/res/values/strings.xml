@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">음악극</string>
+    <string name="back">Back</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_relyric4">Relyric4</string>
+</resources>

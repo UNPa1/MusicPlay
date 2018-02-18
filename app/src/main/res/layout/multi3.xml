@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.musicplay.yuhwan.multi2">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4. 모둠원별 줄거리 짜기(클릭 후 입력, 동시 접속 입력 가능)"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView12"
+        android:layout_marginTop="21dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="모둠별 줄거리"
+                android:textSize="24sp" />
+
+            <EditText
+
+                android:id="@+id/editText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:padding="8dp"
+                android:text="Name" />
+
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tableLayout"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal"
+        android:id="@+id/tableLayout3">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="모둠원1  " />
+
+            <EditText
+                android:id="@+id/Name1"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Name" />
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="모둠원2" />
+
+            <EditText
+                android:id="@+id/Name2"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Name" />
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="모둠원3" />
+
+            <EditText
+                android:id="@+id/Name3"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Name" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tableLayout3"
+        android:layout_centerHorizontal="true">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:onClick="End1"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:onClick="End2"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:onClick="End3"
+                android:text="Button" />
+        </TableRow>
+
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tableLayout3"
+        android:layout_marginTop="50dp"
+        android:id="@+id/tableLayout5">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="모둠원4" />
+
+            <EditText
+                android:id="@+id/Name4"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Name" />
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="모둠원5" />
+
+            <EditText
+                android:id="@+id/Name5"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Name" />
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="모둠원6" />
+
+            <EditText
+                android:id="@+id/Name6"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Name" />
+
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tableLayout5">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:onClick="End4"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:onClick="End5"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:onClick="End6"
+                android:text="Button" />
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>

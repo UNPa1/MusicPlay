@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id = "@+id/frompic2_layout"
+    android:background="#ffffff">
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="1. 그림에서 영감 얻기 - 1) 우리나라"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView27"
+        android:layout_centerHorizontal="true"
+        android:text="(1) 선사시대/고조선"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView2"
+        android:layout_centerHorizontal="true"
+        android:text="빗살무늬 토기(흙/신석기)"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_below="@+id/textView28"
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="false"
+        android:scaleType="fitXY"
+        android:src="@drawable/combpot" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView29"
+        android:layout_centerHorizontal="true"
+        android:text="◉ 농사를 짓기 시작한 신석기 시대에는 남은 음식을 저장할 도구가 필요해짐."
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView4"
+        android:layout_centerHorizontal="true"
+        android:text="농경문 청동기"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView30"
+        android:layout_centerHorizontal="true"
+        android:scaleType="center"
+        android:src="@drawable/bronzecult" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:text="(금속, 동합금/B.C1500년경~B.C300년경) ◉ 주술적인 도구로 추측(제정일치사회). 청동기, 철기가 발달했으며 이로 인해 농기구가 발달됨에 따라 농사가 발전. 신분제도가 체계화됨."
+        android:textSize="18sp" />
+
+</RelativeLayout>
+
+
+

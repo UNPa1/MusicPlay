@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.musicplay.yuhwan">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FromPic1"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" />
+        <activity
+            android:name=".FromPic2"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" />
+        <activity
+            android:name=".FromPic3"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" />
+        <activity
+            android:name=".FromPic4"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" />
+        <activity
+            android:name=".FromPic5"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" />
+        <activity
+            android:name=".FromPic6"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" />
+        <activity
+            android:name=".FromPic7"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" />
+        <activity
+            android:name=".FromPic8"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" />
+        <activity
+            android:name=".FromPic9"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" />
+        <activity
+            android:name=".FromPic10"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" />
+        <activity
+            android:name=".FromPic11"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" />
+        <activity
+            android:name=".FromPic12"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" />
+        <activity
+            android:name=".FromStory1"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" />
+        <activity android:name=".FromStory2" />
+        <activity
+            android:name=".multi2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".multi3"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".multi1"
+            android:screenOrientation="landscape" />
+        <activity android:name=".multi4" />
+        <activity android:name=".Relyric" />
+        <activity android:name=".Relyric2" />
+        <activity android:name=".Relyric3" />
+        <activity
+            android:name=".Relyric4"
+            android:label="@string/title_activity_relyric4"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Relyric5" />
+        <activity android:name=".Relyric6" />
+        <activity android:name=".Relyric7" />
+        <activity android:name=".Relyric8" />
+        <activity android:name=".Relyric9" />
+        <activity android:name=".Relyric10" />
+        <activity android:name=".Relyric11" />
+        <activity android:name=".Relyric12" />
+        <activity android:name=".Relyric13" />
+        <activity android:name=".Relyric14" />
+        <activity android:name=".Relyric15" />
+        <activity android:name=".Relyric16" />
+        <activity android:name=".relyric17" />
+        <activity android:name=".Relyric18"></activity>
+    </application>
+
+</manifest>

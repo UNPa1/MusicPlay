@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteY="81dp">
+
+    <TextView
+        android:id="@+id/textView63"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="2. 동화에서 아이디어 얻기"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView64"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView72"
+        android:layout_alignStart="@+id/textView72"
+        android:layout_below="@+id/textView63"
+        android:layout_marginTop="59dp"
+        android:text="1) 우리나라"
+        android:textAlignment="center"
+        android:textSize="19sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView65"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView64"
+        android:layout_centerHorizontal="true"
+        android:text="(1) 선사시대/고조선"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView66"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView65"
+        android:layout_alignStart="@+id/textView65"
+        android:layout_below="@+id/textView65"
+        android:text="(2) 삼국시대"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView67"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView66"
+        android:layout_alignStart="@+id/textView66"
+        android:layout_below="@+id/textView66"
+        android:text="(3) 통일신라, 발해"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView68"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView67"
+        android:layout_alignStart="@+id/textView67"
+        android:layout_below="@+id/textView67"
+        android:text="(4) 고려"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView69"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView68"
+        android:layout_alignStart="@+id/textView68"
+        android:layout_below="@+id/textView68"
+        android:text="(5) 조선"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView70"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView69"
+        android:layout_alignStart="@+id/textView69"
+        android:layout_below="@+id/textView69"
+        android:text="(6) 별주부전"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView71"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView69"
+        android:layout_alignStart="@+id/textView69"
+        android:layout_below="@+id/textView70"
+        android:text="(7) 춘향전"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView72"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView73"
+        android:layout_alignRight="@+id/textView73"
+        android:layout_below="@+id/textView71"
+        android:layout_marginTop="21dp"
+        android:text="2) 다른 나라"
+        android:textSize="19sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView73"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView71"
+        android:layout_alignStart="@+id/textView71"
+        android:layout_below="@+id/textView72"
+        android:text="(1) 중국"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView74"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView73"
+        android:layout_alignStart="@+id/textView73"
+        android:layout_below="@+id/textView73"
+        android:text="(2) 일본"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView75"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView74"
+        android:layout_alignStart="@+id/textView74"
+        android:layout_below="@+id/textView74"
+        android:text="(3) 유럽"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView76"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView75"
+        android:layout_alignStart="@+id/textView75"
+        android:layout_below="@+id/textView75"
+        android:text="(4) 동남아시아"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView77"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView76"
+        android:layout_alignStart="@+id/textView76"
+        android:layout_below="@+id/textView76"
+        android:text="(5) 아프리카"
+        android:textSize="18sp" />
+
+</RelativeLayout>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.musicplay.yuhwan.multi2">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3. 반 전체가 함께 줄거리 짜기(모둠명 클릭 시 시나리오 작성 페이지로 이동)"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView12"
+        android:layout_marginTop="21dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="전체 줄거리"
+                android:textSize="24sp" />
+
+            <EditText
+
+                android:id="@+id/editText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:padding="8dp"
+                android:text="Name" />
+
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tableLayout"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="220dp"
+                android:layout_height="80dp"
+                android:onClick="group1"
+                android:text="1모둠" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="220dp"
+                android:layout_height="80dp"
+                android:onClick="group2"
+                android:text="2모둠" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="220dp"
+                android:layout_height="80dp"
+                android:onClick="group3"
+                android:text="3모둠" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:onClick="group4"
+                android:text="4모둠" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:onClick="group5"
+                android:text="5모둠" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:onClick="group6"
+                android:text="6모둠" />
+        </TableRow>
+
+    </TableLayout>
+
+</RelativeLayout>
