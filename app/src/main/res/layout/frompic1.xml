@@ -13,7 +13,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:text="2. 동화에서 아이디어 얻기"
+        android:text="1. 그림에서 영감 얻기"
         android:textSize="20sp" />
 
     <TextView
@@ -79,32 +79,12 @@
         android:textSize="18sp" />
 
     <TextView
-        android:id="@+id/textView70"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView69"
-        android:layout_alignStart="@+id/textView69"
-        android:layout_below="@+id/textView69"
-        android:text="(6) 별주부전"
-        android:textSize="18sp" />
-
-    <TextView
-        android:id="@+id/textView71"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView69"
-        android:layout_alignStart="@+id/textView69"
-        android:layout_below="@+id/textView70"
-        android:text="(7) 춘향전"
-        android:textSize="18sp" />
-
-    <TextView
         android:id="@+id/textView72"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignEnd="@+id/textView73"
         android:layout_alignRight="@+id/textView73"
-        android:layout_below="@+id/textView71"
+        android:layout_below="@+id/textView69"
         android:layout_marginTop="21dp"
         android:text="2) 다른 나라"
         android:textSize="19sp"
@@ -114,8 +94,8 @@
         android:id="@+id/textView73"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView71"
-        android:layout_alignStart="@+id/textView71"
+        android:layout_alignLeft="@+id/textView69"
+        android:layout_alignStart="@+id/textView69"
         android:layout_below="@+id/textView72"
         android:text="(1) 중국"
         android:textSize="18sp" />
