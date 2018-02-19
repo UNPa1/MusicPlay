@@ -88,7 +88,10 @@
         <activity android:name=".Relyric15" />
         <activity android:name=".Relyric16" />
         <activity android:name=".relyric17" />
-        <activity android:name=".Relyric18"></activity>
+        <activity android:name=".Relyric18" />
+        <activity android:name=".Relyric19" />
+        <activity android:name=".Relyric20" />
+        <activity android:name=".Relyric21"></activity>
     </application>
 
 </manifest>
